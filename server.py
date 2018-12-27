@@ -1,9 +1,11 @@
+# Optional code to calculate the time taken for the entire socket programming in server side
 import time
 start=time.time()
-# first of all import the socket library 
+
+# Import the socket library 
 import socket			 
 
-# next create a socket object 
+# Create a socket object 
 s = socket.socket()		 
 print "Socket successfully created"
 
@@ -36,5 +38,7 @@ while True:
 
 # Close the connection with the client 
 	c.close() 
+
+# Print the total time taken by server
 end=time.time()
 print(end-start)
