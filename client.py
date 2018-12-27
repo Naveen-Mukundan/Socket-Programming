@@ -1,4 +1,4 @@
-# Optional code to calculate the time taken for the entire socket programming in server side
+# Optional code to calculate the time taken for the entire socket programming in client side
 import time
 start=time.time()
 
