@@ -1,3 +1,6 @@
+# Author: Naveen Mukundan Ravindran 
+# Description: Socket-Programming (Client code)
+
 # Optional code to calculate the time taken for the entire socket programming in server side
 import time
 start=time.time()
